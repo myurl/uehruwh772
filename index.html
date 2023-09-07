@@ -11,19 +11,19 @@
           <title> Rizz State University</title>
           <meta property="og:title" content="A School? | CSRU">
           <meta property="og:description" content="Acknowledging the Presence of a Person with Charismatic way of Affection and Care. We are Rizz University the collection of Charismatic Students.">
-          <meta property="og:image" content="https://raw.githubusercontent.com/myurl/uehruwh772/WEBOPL/img/9273828373.jpg">
+          <meta property="og:image" content="https://raw.githubusercontent.com/myurl/csru/WEBOPL/img/9273828373.jpg">
           <meta name="twitter:card" content="summary">
           <meta name="twitter:title" content="It's A Rizz">
           <meta name="twitter:description" content="We are Charismatic Loving University, Giving value to what we do.">
-          <meta name="twitter:image" content="https://raw.githubusercontent.com/myurl/uehruwh772/WEBOPL/img/9273828373.jpg">
+          <meta name="twitter:image" content="https://raw.githubusercontent.com/myurl/csru/WEBOPL/img/9273828373.jpg">
           <meta name="twitter:image:alt" content="banner name">
       
       <meta property="title" content="We are CSRU">
       <meta property="author" content="IIan">
-      <meta property="image" content="https://raw.githubusercontent.com/myurl/uehruwh772/WEBOPL/img/9273828373.jpg">
+      <meta property="image" content="https://raw.githubusercontent.com/myurl/csru/WEBOPL/img/9273828373.jpg">
       <meta property="description" content="A School Of Charismatic Perso, We love and Care with Rizz each other.">
           
-      <link rel="shortcut icon" href="https://raw.githubusercontent.com/myurl/uehruwh772/WEBOPL/img/73828273828.png" type="image/x-icon"> 
+      <link rel="shortcut icon" href="https://raw.githubusercontent.com/myurl/csru/WEBOPL/img/73828273828.png" type="image/x-icon"> 
 
       <link rel="stylesheet" href="https://atstem.github.io/just.css/just.css"/>
 <link rel="stylesheet" href="https://atstem.github.io/just.css/anim.css"/>
@@ -32,78 +32,250 @@
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css"/>
       
   </head>
-  
- <style>
-  @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-.cormo {font-family: 'Cormorant', serif;}
+
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Pinyon+Script&display=swap');
+
+.pinyon {font-family: 'Pinyon Script', cursive;}
+
+.comrat {font-family: 'Cormorant', serif;}
+
+.fadeout {
+animation: fadeout 1s;
+}
+@keyframes fadeout {
+from {
+opacity: 100%;
+}
+
+to {
+opacity: 0%;
+}
+}
+
+#chelleMenu .btn p, #chelleMenu .btn:hover p ~ #chelleMenu .btn p
+ {opacity:60%; transition: all 0.5s;}
+#chelleMenu .btn:hover p {
+font-size:45px;
+transition: all 0.5s;
+opacity:100%;
+}
 </style>
-
   <body>
-<bg class=' bbg '> </bg>
+<bg class=' dbg'> </bg>
+<section id='chelleMenu' class='hide '> 
 
-<section class='fsrc vbg center ' logoscreen> 
-<p class=' big cormo w '>CHELLE RIZZ</p>
-<p class=' mid load-1s cormo w light '>STATE UNIVERSITY</p>
-</section>
+<div class='center fsrc dbg ' menubase> 
 
-<section id='notthemain' class=' '>
-<bg class=' '> <div class='hero mid 'style="background: url('https://cssgradient.io/images/css-gradient-resources-6e1f3dcf.svg'); background-size:cover; filter: blur(5px);opacity:70%;"> </div> </bg>
-<div class='hero mid center '> 
+<nav class='head float dbg '>
 
-<p class=' big cormo w '>CHELLE RIZZ</p>
-<p class=' cormo w light '>STATE UNIVERSITY</p>
-
-</div>
-
-<nav class='head sticky bbg top row '>
-
-<span class='item-left item '>
-<p class=' mont bold w '>CSRU</p>
-<a class='btn vbg' >
-       <p class=' mont bold w '>ENROLL (NOT AVAILABLE</p>
+<span class='item-right'>
+<a class='cont' onclick='to(chelleMenu, home)'>
+       <i class="fa-solid fa-close w"></i>
  </a>
 </span>
 
 </nav>
 
-<div class='hero mid left bbg '> 
-<p class=' w mid unbound '> Mission </p>
-<i> </i>
-<p class=' w cormo '> To Explore the Self appeal and acknowledging -students to develop Confidence in themselves. </p>
-<p class=' '> </p>
+<a chellemenuone="" class='btn load-1s '
+onclick=" setTimeout(() => {  elClass('[menubase]', 'add', 'fadeout');  },100); setTimeout(() => { elClass('[menubase]', 'rem', 'fadeout'); to(chelleMenu, home); elClass('#home', 'add', 'fade-1s'); } ,1000);setTimeout(() => {  elClass('#home', 'rem', 'fade-1s'); },1500)
+ "
+>
+       <p class='unbound xl  '> Home </p>
+ </a>
+<a class='btn to-right1s '
+
+onclick=" setTimeout(() => {  elClass('[menubase]', 'add', 'fadeout');  },100); setTimeout(() => { elClass('[menubase]', 'rem', 'fadeout'); to(chelleMenu, mission); elClass('#mission', 'add', 'fade-1s'); } ,1000);setTimeout(() => {  elClass('#mission', 'rem', 'fade-1s'); },1500)
+ "
+>
+       <p class='unbound xl  '> Mission </p>
+ </a>
+<a class='btn to-right2s '
+onclick=" setTimeout(() => {  elClass('[menubase]', 'add', 'fadeout');  },100); setTimeout(() => { elClass('[menubase]', 'rem', 'fadeout'); to(chelleMenu, vision); elClass('#vision', 'add', 'fade-1s'); } ,1000);setTimeout(() => {  elClass('#vision', 'rem', 'fade-1s'); },1500)
+ "
+>
+       <p class='unbound xl  '>  Vision </p>
+ </a>
+<a class='btn to-right3s '
+onclick=" setTimeout(() => {  elClass('[menubase]', 'add', 'fadeout');  },100); setTimeout(() => { elClass('[menubase]', 'rem', 'fadeout'); to(chelleMenu, enroll); elClass('#enroll', 'add', 'fade-1s'); } ,1000);setTimeout(() => {  elClass('#enroll', 'rem', 'fade-1s'); },1500)
+ "
+>
+       <p class='unbound xl  '> Enrollment </p>
+ </a>
+
+</div>
+</section>
+<section id='home' class=' '> 
+
+
+<nav class='head dbg sticky row '>
+
+<span class='item '>                    
+<span class='item-left'>
+<a class='cont'>
+       <i class="d fa-solid fa-a"></i>
+ </a>
+</span>
+<span class=' item'>
+
+<p class='small unbound w'>CSRU</p>
+</span>
+
+<span class='item-right'>
+<a class='cont' onclick='to(home, chelleMenu)'>
+       <i class="w fa-solid fa-bars-staggered"></i>
+ </a>
+</span>
+</span>
+
+</nav>
+<div class='hero center mid dbg '>
+<p class=' rotate w unbound '> 00 </p>
+<p class=' w xl unbound load-1s '> Chelle State Rizz University</p>
+ </div>
+<div class='hero mid center nbg'> 
+<p class=' pinyon xl v '>In-Deum</p>
+<p class=' pinyon xl v '> chelians </p>
 </div>
 
-<div class='hero mid left bbg '> 
-<p class=' w mid unbound '> Vision </p>
+<div class='hero mid bbg '> 
+<p class='mid bold w '> Rizz Be with you(prayer) </p>
 <i> </i>
-<p class=' w cormo '>We admire the presence of Chelle, We Vision w-ho those seeking in need; They may Yongmo to t-he others view of them. To explore ranges and Be a School of Affection with care and love into the academy</p>
-<p class=' '> </p>
-</div>
+<p class='mid w  '>Our Father, We are thankful for living with peace and love by your side, Our god please guide us in Our Extra Curriculum and Activity. We believe your creation as it was in beginning, now and ever. Our God guide us the in developing our self-being to have Motivations, Confidence and Charisma. Thank you Our Father</p>
 
-<div class='hero bbg '> 
-<p class=' mid unbound w '> rizz be with you (prayer) </p>
-<i> </i>
-<p class=' w cormo '>Our Father, We are thankful for living with peace and love by your side, Our god please guide us in Our Extra Curriculum and Activity. We believe your creation as it was in beginning, now and ever. Our God guide us the in developing our self-being to have Motivations, Confidence and Charisma. Thank you Our Father</p>
-
-<p class=' unbound w '> Amen 🙏 </p>
+<p class=' mid w '> Amen.</p>
  </div>
 
-<div class='hero vbg '>
+<nav class='foot bbg '>
 
-<p class=' unbound big w '>
-리즈 비 위드 유 
-</p>
+<p class='right small unbound w'> ©️ CHELLE STATE RIZZ UNIVERSITY </p>
 
-<p class=' unbound w'> Csru Copyrighted 2023-2024 </p>
-<p class=' mont bold w small'>*MADE4FUN*</p>
-</div>
+</nav>
+
+</section>
+
+<section id='mission' class=' hide '>
+<nav class='head dbg sticky row '>
+
+<span class='item '>                    
+<span class='item-left'>
+<a class='cont'>
+       <i class="d fa-solid fa-a"></i>
+ </a>
+</span>
+<span class=' item'>
+
+<p class='small unbound w'>CSRU</p>
+</span>
+
+<span class='item-right'>
+<a class='cont' onclick='to(mission, chelleMenu)'>
+       <i class="w fa-solid fa-bars-staggered"></i>
+ </a>
+</span>
+</span>
+
+</nav>
+
+<div class='hero mid'>
+<p class=' w mid unbound '> Mission </p>
+<i> </i>
+<p class=' w mid '> To Explore the Self appeal and acknowledging -students to develop Confidence in themselves. </p>
+<p class=' '> </p>
+ </div>
+
  </section>
-  
+
+<section id='vision' class=' hide '>
+<nav class='head dbg sticky row '>
+
+<span class='item '>                    
+<span class='item-left'>
+<a class='cont'>
+       <i class="d fa-solid fa-a"></i>
+ </a>
+</span>
+<span class=' item'>
+
+<p class='small unbound w'>CSRU</p>
+</span>
+
+<span class='item-right'>
+<a class='cont' onclick='to(vision, chelleMenu)'>
+       <i class="w fa-solid fa-bars-staggered"></i>
+ </a>
+</span>
+</span>
+
+</nav>
+<div class='hero mid '>
+ <p class=' w mid unbound '> Vision </p>
+<i> </i>
+<p class=' w mid '>We admire the presence of Chelle, We Vision w-ho those seeking in need; They may Yongmo to t-he others view of them. To explore ranges and Be a School of Affection with care and love into the academy</p>
+<p class=' '> </p></div>
+ </section>
+
+<section id='enroll' class=' hide'>
+
+<nav class='head nbg sticky row '>
+
+<span class='item '>                    
+<span class='item-left'>
+<a class='cont'>
+       <i class="n fa-solid fa-a"></i>
+ </a>
+</span>
+<span class=' item'>
+
+<p class='small unbound w'>CSRU</p>
+</span>
+
+<span class='item-right'>
+<a class='cont' onclick='to(enroll, chelleMenu)'>
+       <i class="w fa-solid fa-bars-staggered"></i>
+ </a>
+</span>
+</span>
+
+</nav>
+
+
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSfLJZI4htVMqTiWUX4tltogh6_uGbr-NBULHNpQJjCOCqYezQ/formResponse" method="POST" target="self">
+<div class='fsrc col nbg '> 
+
+<div class='cont  '> 
+<p class="w unbound mid "> Enrollment Form  </p>
+
+
+
+<div class='input dbg'>
+<input name="entry.876069550" class="w" placeholder='Full name' value=''>
+</div>
+<div class='input dbg'>
+<input name="entry.309023013" class="w" placeholder='Section' value=''>
+</div>
+<div class='input dbg'>
+<input name="entry.637349605" class="w" placeholder='Facebook' value=''>
+</div>
+
+
+<button class="nbg" type="submit">
+<a class='btn lbg '>
+       <p class=' w unbound '> Submit </p>
+ </a>
+</button>
+
+</div>
+</div>
+</form>
+ </section>
+
+<section id='' class=' '> </section>
+
+<script> const scrollfix = document.querySelector('div').offsetHeight; document.documentElement.style.setProperty('--scroll-padding', scrollfix - 1 + "px"); const observer = new IntersectionObserver((entries) => { entries.forEach((entry) => { if (entry.isIntersecting) { animate = entry.target.classList.add("load-1s") } else { animate = entry.target.classList.remove("load-1s");  }  });}); const toAnimate = document.querySelectorAll('div'); toAnimate.forEach((el) => observer.observe(el)); </script> 
    <script src="https://atstem.github.io/just.css/just.js">
   </script> 
-
-<script> const scrollfix = document.querySelector('div').offsetHeight; document.documentElement.style.setProperty('--scroll-padding', scrollfix - 1 + "px"); const observer = new IntersectionObserver((entries) => { entries.forEach((entry) => { if (entry.isIntersecting) { animate = entry.target.classList.add("load-1s") } else { animate = entry.target.classList.remove("load-1s");  }  });}); const toAnimate = document.querySelectorAll('div'); toAnimate.forEach((el) => observer.observe(el));   </script>
   
   </body>
-            </html>
+  </html>
